@@ -9,7 +9,15 @@ export const About = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
-            <h2 className="text-4xl font-bold mb-8">About Me</h2>
+            <h2 className="text-4xl font-bold mb-4">About Me</h2>
+            <h3
+              className="text-2xl font-extrabold mb-5"
+              style={{
+                color: '#6d28d9',
+              }}
+            >
+              {PERSONAL_INFO.name}
+            </h3>
             <p className="text-lg text-slate-600 dark:text-slate-400 mb-6 leading-relaxed">
               {PERSONAL_INFO.about}
             </p>
